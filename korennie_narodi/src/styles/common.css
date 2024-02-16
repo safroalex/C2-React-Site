@@ -1,0 +1,19 @@
+body {
+    font-family: 'Roboto',  'Barlow', sans-serif;
+    background-color: rgb(225, 223, 218);
+}
+
+header, main {
+    display: block;
+    border: solid rgb(255, 70, 70);
+}
+
+
+@media (min-width: 1440px) {
+    .App {
+        display: inline-block;
+        border: solid rgb(247, 0, 255);
+        width: 1440px;
+        margin: 0 auto;
+    }
+}
