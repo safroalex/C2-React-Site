@@ -1,0 +1,49 @@
+section {
+    width: 1440px;
+}
+
+p, .box-sec1_1 h1 {
+    font-family: 'Roboto';
+    line-height: auto;
+    margin: auto;
+    letter-spacing: 10%;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.box-sec1_2 p {
+    margin-bottom: 10px;
+}
+
+.text1_1 {
+    color: rgb(101, 101, 101);
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.box-sec1_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+}
+
+.box-sec1_2 :last-child , .box-sec1_1 div :last-child {
+   text-align: center;
+}
+
+.box-sec1_2 div {
+    margin: 0 30px;
+}
+
+.outer-text1_2 {
+    margin-top: 30px;
+}

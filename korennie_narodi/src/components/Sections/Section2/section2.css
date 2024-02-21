@@ -1,0 +1,50 @@
+section {
+    width: 1440px;
+}
+
+.sec2-content {
+    background-color: rgb(190, 202, 196);
+    margin-top: 60px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+p, .box-sec2_1 h1 {
+    color: rgb(247, 244, 238);
+    font-family: 'Roboto';
+    line-height: auto;
+    margin: auto;
+    letter-spacing: 10%;
+    margin-bottom: 15px;
+}
+
+p {
+    color: black;
+    font-size: 24px;
+}
+
+.box-sec2_2 p {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.box-sec2_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    margin-bottom: 22px;
+}
+
+.box-sec2_2 :last-child , .box-sec2_1 div :last-child, .text2_1 {
+   text-align: center;
+}
+
+.box-sec2_2 div {
+    margin: 0 30px;
+}

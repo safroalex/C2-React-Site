@@ -8,21 +8,21 @@ function Header() {
             <div className="container">
                 <div className='logo-container'>
                     <img src={logoImg} alt="logo" />
-                    <span>RUSSIA NATIVE</span>
+                    <span className='ru'>RUSSIA NATIVE</span>
                 </div>
                 <div className='links-outer'>
                     <div className='row-eng'>
-                        <span>English</span>
+                        <a href="">English</a>
                     </div>
-                    <div className='row-links'>
-                        <nav className='links'>
-                            <a href="">Народы</a>
-                            <a href="">Интерьвью</a>
-                            <a href="">Природа</a>
-                            <a href="">Проблемы</a>
-                            <a href="">Помочь</a>
-                        </nav>
-                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="">Народы</a></li>
+                            <li><a href="">Интерьвью</a></li>
+                            <li><a href="">Природа</a></li>
+                            <li><a href="">Проблемы</a></li>
+                            <li><a href="">Помочь</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div> 
         </header>

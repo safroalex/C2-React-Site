@@ -1,33 +1,40 @@
-.header {
-    width: 100%;
+header {
+    width: 1440px;
     height: 115.75px;
-    border: blue solid;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    border: solid red;
-    column-gap: 120px;
+    column-gap: 10px;
+    align-items: center;
 }
 
 .logo-container {
-    border: solid lightblue;
     display: flex;
     align-items: center;
-    margin-left: 4%;
+    margin-left: 66px;
+    margin-top: 8px;
     column-gap: 7px;
 }
 
-.logo-container span {
-    margin-left: 0.4em;
+.logo-container img {
+    width: 103px;
+}
+
+.links-outer {
+    margin-right: 67px;
+}
+
+.ru {
+    margin-left: 1.8em;
     display: flex;
     justify-content: end;
     align-items: start;
     width: 50px;
 }
 
-.links-outer span {
+.links-outer a {
     display: flex;
     justify-content: end;
     align-items: start;
@@ -36,45 +43,39 @@
     font-weight: 400;
 }
 
-.links {
-    border: solid rgb(212, 255, 0);
+.row-eng {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex: 1;
+    justify-content: end;
+    align-items: start;
+    margin-bottom: 16px;
+}
+
+ul {
+    display: flex;
     column-gap: 20px;
 }
 
-.links-outer {
-    border: solid fuchsia;
-    width: 40%;
+ul li {
+    text-align: center;
 }
 
-.row-eng {
-    border: solid rgb(0, 255, 8);
-    display: block;
+.row-eng a {
+    line-height: auto;
+    font-size: 12px;
 }
 
-.row-links {
-    border: solid black;
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-}
-
-a, span {
+a, span, .row-eng a {
     font-family: 'Roboto';
     line-height: auto;
-    letter-spacing: 10%;
+    font-weight: 400;
 }
 
 a {
-    font-weight: 400;
-    font-size: 20;
+    font-size: 20px;
     color: black;
 }
 
-span {
+.ru {
     font-weight: 500;
     font-size: 16;
     color: rgb(68, 88, 82);

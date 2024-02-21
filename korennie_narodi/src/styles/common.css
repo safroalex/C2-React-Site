@@ -1,19 +1,36 @@
 body {
     font-family: 'Roboto',  'Barlow', sans-serif;
-    background-color: rgb(225, 223, 218);
+    letter-spacing: 0.2em;
+    background-color: rgb(247, 244, 238);
+    padding-bottom: 1000px;
 }
 
 header, main {
     display: block;
-    border: solid rgb(255, 70, 70);
 }
 
-
-@media (min-width: 1440px) {
-    .App {
-        display: inline-block;
-        border: solid rgb(247, 0, 255);
+/* @media (min-width: 1440px) {
+    Header, Main {
         width: 1440px;
-        margin: 0 auto;
     }
+}
+*/
+
+.App {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+    
+}
+
+.all-content {
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.3);
+    height: 10000px;
+}
+
+.container {
+    max-width: 1760px;
+    padding: 0 30px;
+    margin: 0 auto;
 }
