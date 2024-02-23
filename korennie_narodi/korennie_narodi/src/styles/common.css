@@ -1,8 +1,6 @@
 body {
     font-family: 'Roboto',  'Barlow', sans-serif;
     letter-spacing: 0.2em;
-    background-color: rgb(247, 244, 238);
-    padding-bottom: 1000px;
 }
 
 header, main {
@@ -19,14 +17,16 @@ header, main {
 .App {
     display: flex;
     justify-content: center;
-    width: 100vw;
-    height: 100vw;
-    
+    /* width: 100vw;
+    height: 100vw; */
+    position: relative;
+    z-index: -100;
+    background-color: rgb(247, 244, 238);
 }
 
 .all-content {
-    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.3);
-    height: 10000px;
+    /* box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.3); */
+    height: 5306px;
 }
 
 .container {

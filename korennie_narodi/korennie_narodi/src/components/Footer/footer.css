@@ -1,0 +1,111 @@
+.footer-box {
+    width: 1440px;
+    height: 393px;
+    /* border: cornflowerblue solid; */
+    display: flex;
+    background-color: rgb(225,223,218);
+    position: relative;
+    z-index: -10;
+    bottom: 0;
+}
+
+.narodi-i-priroda {
+    /* border: solid blueviolet; */
+    position: relative;
+    z-index: -1;
+    width: 413px;
+    padding-bottom: 20px;
+}
+
+.narodi-i-interview {
+    /* border: solid rgb(255, 157, 0); */
+    position: relative;
+    z-index: -1;
+    width: 413px;
+    padding-bottom: 20px;
+}
+
+.text-box-footer {
+    display: inline;
+    position: absolute;
+    top: 52px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    line-height: 116.7%;
+}
+
+.text-box-footer a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-box-footer p {
+    margin-bottom: 7px;
+    line-height: 2em;
+    color: white;
+}
+
+.footer-text {
+    /* border: red solid; */
+    display: inline-block;
+    width: 540px;
+}
+
+.footer-img {
+    /* border: red solid; */
+    display: flex;
+    column-gap: 23px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 116.7%;
+    letter-spacing: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text p {
+    font-size: 14px;
+}
+
+.keeper {
+    width: 496px;
+    height: 337px;
+    word-wrap: break-word;
+    padding-left: 20px;
+    padding-top: 22px;
+    /* border: blue solid; */
+}
+
+.keeper :first-child , .keeper :nth-child(2), .review , .keeper :last-child {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 116.7%;
+    letter-spacing: 15%;
+}
+
+.keeper :nth-child(2), .review, .keeper :last-child {
+    font-size: 12px;
+    margin-bottom: 42px;
+}
+
+.keeper :first-child {
+    margin-bottom: 42px;
+}
+
+/* .review {
+    border: red solid;
+} */

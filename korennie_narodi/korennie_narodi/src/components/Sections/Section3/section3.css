@@ -2,7 +2,7 @@
     margin-top: 30px;
 }
 
-.unifying1, .unifying2, .unifying3, .unifying4 {
+.unifying1, .unifying2, .unifying3 {
     display: flex;
 }
 
@@ -29,7 +29,6 @@
     height: 250px;
     background-color: rgb(110, 128, 122);
     word-wrap: break-word;
-    /* margin: 50px 200px 0 30px; */
 }
 
 .content-box .text-box1:nth-child(odd) {
@@ -77,22 +76,10 @@ img {
     align-items: center;
 }
 
-/* .content1 {
-    height: 309.16px;
-}
-
-.content2 {
-    height: 290px;
-}
-
-.content3 {
-    height: 376.34px;
-} */
-
 .unifying1 p, .unifying2 p, .unifying3 p {
     padding: 52px 10px 30px 23px ;
     color: rgb(247, 244, 238);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: auto;
@@ -105,37 +92,37 @@ img {
 .unifying2 p {
     -webkit-line-clamp: 6;
     letter-spacing: 0.1em;
-    padding: 60px 2px 2px 44px;
+    padding: 60px 2px 2px 28px; 
 }
 
 .unifying3 p {
     -webkit-line-clamp: 8;
     letter-spacing: 0.1em;
-    padding: 40px 20px 0 21px;
+    padding: 40px 20px 20px 21px;
 }
 
 .text-box1 a{
     font-size: 15px;
     text-transform: uppercase;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: white;
     margin-left: 23px;
-    /* margin: 10px 23px; */
+}
+
+.unifying2 .text-box1 :first-child {
+    margin-bottom: 33px;
 }
 
 .content2 a {
-    margin: 10px 20px 32px 388px;
-}
-
-.content3 a {
-    margin: 10px 429px 34px 21px;
+    margin: 30px 20px 32px 388px;   
 }
 
 .quotation {
     width: 752px;
     height: 240px;
     position: relative;
+    /* border: green solid; */
 }
 
 .img-box {
@@ -163,11 +150,6 @@ img {
     width: 752px;
 }
 
-.text-box2 {
-    /* width: 719px; */
-    word-wrap: break-word;
-}
-
 .decoration1 .line-box {
     position: absolute;
     top: -20px;
@@ -179,45 +161,56 @@ img {
 }
 
 .text-box2 {
-    display: inline;
+    /* display: inline; */
     position: absolute;
-    top: 55px;
-    left: 19px;
+    top: 61px;
+    left: 27px;
+    width: 719px;
+    height: 173px;
+    /* border: blue solid; */
 }
 
 .text-box2 p {
-    font-family: 'Roboto';
-    letter-spacing: 0.05em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5%;
     font-weight: 400;
-    font-size: 26px;
-    line-height: 100%;
+    font-size: 22px;
+    line-height: 116.7%;
 }
 
 .text-box-inner {
     display: inline-flex;
     justify-content: center;
-    width: 719px;
+    /* border: solid blueviolet; */
+    max-height: 30px;
 }
 
 .text-box-outer {
     display: inline-flex;
     justify-content: center;
+    width: 719px;
+    /* border: solid red; */
+    max-height: 30px;
 }
 
 .author {
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .content4 {
     margin-bottom: 110px;
 }
 
+.content5 {
+    margin-bottom: 720px;
+}
 
-/* НАША ПОЛИТИКА */
 
-/* .content5 {
-    border: rgb(140, 240, 222) solid;
-} */
+/*                                                                НАША ПОЛИТИКА                                       */
+
+.content5 {
+    margin-left: 20px;
+}
 
 .common-box {
     display: flex;
@@ -245,7 +238,7 @@ img {
 }
 
 .subheading p, .block1 p, .block1 div {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 0.15em;
     line-height: 116.7%;

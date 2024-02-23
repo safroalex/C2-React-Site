@@ -2,12 +2,12 @@ import './section3.css'
 import people from './../../../images/people.jpg'
 import game from './../../../images/game.jpg'
 import meeting from './../../../images/meeting.jpg'
-import quotes_1 from './../../../images/quotes_1.jpg'
-import quotes_2 from './../../../images/quotes_2.jpg'
+import quotes_1 from './../../../images/quotes_1.svg'
+import quotes_2 from './../../../images/quotes_2.svg'
 import line from './../../../images/line.jpg'
-import zeroOne from './../../../images/01.jpg'
-import zeroTwo from './../../../images/02.jpg'
-import zeroThree from './../../../images/03.jpg'
+import zeroOne from './../../../images/01.svg'
+import zeroTwo from './../../../images/02.svg'
+import zeroThree from './../../../images/03.svg'
 
 const Section3 = () => {
     return (  
@@ -39,7 +39,9 @@ const Section3 = () => {
                     <div className='unifying3'>
                         <div className='text-box1'>
                             <p>Сложность сохранения языка, исчезновение древних традиций, угроза национальным культурам, разрушение экосистем - с этими проблемами сталкиваются коренные народы не только России, но и других стран. В 1992 году в ООН была принята “Декларация о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам”, закреплявшая права меньшинств в многосоставных государствах.</p>
-                            <a href="">узнать больше</a>
+                            <div>
+                                <a href="">узнать больше</a>
+                            </div>
                         </div>
                         <div className='box-img1'>
                             <img src={meeting} alt="" />
