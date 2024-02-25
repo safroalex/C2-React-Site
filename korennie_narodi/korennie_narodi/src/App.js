@@ -1,3 +1,4 @@
+import './i18n';
 import Footer from "./components/Footer/footer";
 import Header from "./components/Header/header";
 import Main from "./components/Main/main";

@@ -1,27 +1,30 @@
-import './section2.css'
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import './section2.css';
 
 const Section2 = () => {
+    const { t } = useTranslation();
+
     return ( 
         <section>
             <div className='sec2-content'>
                 <div>
                     <div className='box-sec2_1'>
-                        <h1>Наша мисия</h1>
+                        <h1>{t('our_mission')}</h1>
                     </div>
                 </div>
                 <div>
                     <div className='box-sec2_1'>
                         <div className='box-sec2_2'>
                             <div>
-                                <p>Миссия данного проекта - обратить внимание общественности на коренные народы</p>
+                                <p>{t('mission_statement_1')}</p>
                             </div>
-                            <p>России, их экологичный образ жизни и практики по сохранению окружающей среды с</p>
-                            <p className='text2_1'>целью перенятия их способов взаимодействия с природой для улучшения</p>
-                            <p>экологического состояния нашей планеты.</p>
+                            <p>{t('mission_statement_2')}</p>
+                            <p className='text2_1'>{t('mission_statement_3')}</p>
+                            <p>{t('mission_statement_4')}</p>
                         </div>
                     </div>
                 </div>
-                
             </div>
          </section>
     );

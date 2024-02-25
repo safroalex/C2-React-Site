@@ -20,7 +20,7 @@ header, main {
     /* width: 100vw;
     height: 100vw; */
     position: relative;
-    z-index: -100;
+    z-index: 1;
     background-color: rgb(247, 244, 238);
 }
 
