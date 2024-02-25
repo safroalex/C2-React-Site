@@ -1,16 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import './header.css';
 import logoImg from './../../images/Logo.svg';
+import i18n from "./../../i18n.js";
+
 
 function Header() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
+
+    useEffect(() => {
+        // Проверяем, сохранен ли язык в localStorage и устанавливаем его
+        const savedLang = localStorage.getItem('language');
+        if (savedLang) {
+            i18n.changeLanguage(savedLang);
+        }
+    }, []);
 
     // Функция для переключения языка
     const changeLanguage = () => {
         // Определяем, какой язык установлен в данный момент, и переключаем на другой
         const newLang = i18n.language === 'en' ? 'ru' : 'en';
         i18n.changeLanguage(newLang);
+        // Сохраняем выбранный язык в localStorage
+        localStorage.setItem('language', newLang);
     };
 
     // Определение названия кнопки в зависимости от текущего языка

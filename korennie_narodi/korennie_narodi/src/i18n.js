@@ -1,7 +1,6 @@
 // i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
 
 const resources = {
   en: {
@@ -79,11 +78,13 @@ const resources = {
   }
 };
 
+const currentLanguage = localStorage.getItem('language') || 'ru'; // язык по умолчанию, если в localStorage нет сохраненного значения
+
 i18n
   .use(initReactI18next) // пропускает i18n вниз до react-i18next
   .init({
     resources,
-    lng: "ru", // язык по умолчанию
+    lng: currentLanguage, // Установка языка на основе сохраненного значения или использование 'ru' по умолчанию
     keySeparator: false, // мы не используем или не нуждаемся в ключах в форме messages.welcome
     interpolation: {
       escapeValue: false // react уже защищает от инъекций
