@@ -1,15 +1,19 @@
-import './section5.css'
-import yakut from './../../../images/yakut.jpg'
+import React from 'react';
+import './section5.css';
+import yakut from './../../../images/yakut.jpg';
+import { useTranslation } from 'react-i18next';
 
 const Section5 = () => {
+    const { t } = useTranslation();
+
     return (  
         <section>
             <div className='help-box'>
                 <div className='help-outer-box'>
                     <div className='help-inner-box'>
-                        <p>Вы можете помочь</p>
-                        <p className='help-text'>Защитите людей и места, которые вы любите. Сделайте ваш вклад сегодня.</p>
-                        <button>да - я хочу помочь!</button>
+\                        <p>{t('help_title')}</p>
+                        <p className='help-text'>{t('help_message')}</p>
+                        <button>{t('help_button')}</button>
                     </div>
                 </div>
                 <div className='help-img-box'>

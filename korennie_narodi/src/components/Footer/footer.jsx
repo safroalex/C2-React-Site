@@ -1,21 +1,23 @@
-import './footer.css'
-import landscape1 from './../../images/landscape1.jpg'
-import landscape2 from './../../images/landscape2.jpg'
+import React from 'react';
+import './footer.css';
+import landscape1 from './../../images/landscape1.jpg';
+import landscape2 from './../../images/landscape2.jpg';
+import { useTranslation } from 'react-i18next'; // Импортируйте useTranslation
 
 const Footer = () => {
+    const { t } = useTranslation(); // Используйте хук useTranslation
+
     return ( 
         <footer>
             <div className='footer-box'>
                 <div className='footer-text'>
                     <div className='keeper'>
-                        <p>Напишите нам</p>
-                        <p>russianative@gmail.com</p>
+                        <p>{t('footer_write_to_us')}</p>
+                        <p>{t('footer_email')}</p>
                         <div className='review'>
-                            <p>
-                                Мы создали полезный сайт, в котором собрали информацию о коренных жителях нашей страны, их проблемах, а также способах взаимодействия с окружающей средой, которые не только эффективны, но и безопасны для природы.
-                            </p>
+                            <p>{t('footer_description')}</p>
                         </div>
-                        <p>© 2024 Indigious People, Website by Fusion</p>
+                        <p>{t('footer_copyright')}</p>
                     </div>
                 </div>
                 <div className='footer-img'>
@@ -24,8 +26,8 @@ const Footer = () => {
                             <img src={landscape1} alt="" />
                         </div>
                         <div className='text-box-footer'>
-                            <p>народы <br /> и природа</p>
-                            <a href="">узнать больше</a>
+                            <p>{t('footer_nations_nature')}</p>
+                            <a href="">{t('footer_learn_more')}</a>
                         </div>
                     </div>
                     <div className='narodi-i-interview'>
@@ -33,8 +35,8 @@ const Footer = () => {
                             <img src={landscape2} alt="" />
                         </div>
                         <div className='text-box-footer'>
-                            <p>народы <br />и интервью</p>
-                            <a href="">узнать больше</a>
+                            <p>{t('footer_nations_interview')}</p>
+                            <a href="">{t('footer_learn_more')}</a>
                         </div>
                     </div>
                 </div>
