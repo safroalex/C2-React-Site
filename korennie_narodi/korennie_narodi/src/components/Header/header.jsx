@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import './header.css';
 import logoImg from './../../images/Logo.svg';
 import i18n from "./../../i18n.js";
-
+import { Link } from 'react-router-dom';
 
 function Header() {
     const { t } = useTranslation();
@@ -32,7 +32,9 @@ function Header() {
         <header className='header'>
             <div className="container">
                 <div className='logo-container'>
-                    <img src={logoImg} alt="logo" />
+                    <Link to="/">
+                        <img src={logoImg} alt="logo" />
+                    </Link>                    
                     <span className='ru'>{t('RUSSIA NATIVE')}</span>
                 </div>
                 <div className='links-outer'>
@@ -42,11 +44,11 @@ function Header() {
                     </div>
                     <nav>
                         <ul>
-                            <li><a href="">{t('Народы')}</a></li>
-                            <li><a href="">{t('Интерьвью')}</a></li>
-                            <li><a href="">{t('Природа')}</a></li>
-                            <li><a href="">{t('Проблемы')}</a></li>
-                            <li><a href="">{t('Помочь')}</a></li>
+                            <li><Link to="/peoples">{t('Народы')}</Link></li>
+                            <li><Link to="/interviews">{t('Интерьвью')}</Link></li>
+                            <li><Link to="/nature">{t('Природа')}</Link></li>
+                            <li><Link to="/problems">{t('Проблемы')}</Link></li>
+                            <li><Link to="/help">{t('Помочь')}</Link></li>
                         </ul>
                     </nav>
                 </div>
