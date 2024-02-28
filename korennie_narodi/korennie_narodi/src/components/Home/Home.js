@@ -12,7 +12,8 @@ import Section5 from "./../Home/Section5/section5";
 const HomePage = () => {
   return (
     <>
-<div className="all-content">
+        <div className="all-content">
+            
         <Header />
         
         <Main />
