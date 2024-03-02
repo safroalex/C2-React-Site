@@ -1,5 +1,6 @@
 section {
-    width: 1440px;
+    /* width: 1440px; */
+    width: 100vw;
 }
 
 .sec2-content {

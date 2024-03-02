@@ -72,17 +72,17 @@ const Section3 = () => {
                             <div className='text-box2'>
                                 <div className='text-box-outer'>
                                     <div className='text-box-inner'>
-                                        <p className='p1'>{t('indigenous_teaching_quote')}</p>
+                                        <p className='p1'>{t('indigenous_teaching_quote1')}</p>
                                     </div>
                                 </div>
                                 <div className='text-box-outer'>
                                     <div className='text-box-inner'>
-                                        <p className='p2'>{t('with_nature')}</p>
+                                        <p className='p2'>{t('indigenous_teaching_quote2')}</p>
                                     </div>
                                 </div>
                                 <div className='text-box-outer'>
                                     <div className='text-box-inner'>
-                                        <p className='p3'>{t('sustainability_for_future_generations')}</p>
+                                        <p className='p3'>{t('indigenous_teaching_quote3')}</p>
                                     </div>
                                 </div>
                                 <div className='text-box-outer'>

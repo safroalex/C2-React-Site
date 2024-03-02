@@ -1,5 +1,5 @@
 .footer-box {
-    width: 1440px;
+    /* width: 1440px; */
     height: 393px;
     /* border: cornflowerblue solid; */
     display: flex;
@@ -7,6 +7,9 @@
     position: relative;
     z-index: -10;
     bottom: 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    column-gap: 20px;
 }
 
 .narodi-i-priroda {
@@ -60,8 +63,8 @@
 .footer-img {
     /* border: red solid; */
     display: flex;
-    column-gap: 23px;
-    justify-content: center;
+    column-gap: 80px;
+    justify-content: space-between;
     align-items: center;
 }
 

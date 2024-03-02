@@ -11,7 +11,7 @@ const Section5 = () => {
             <div className='help-box'>
                 <div className='help-outer-box'>
                     <div className='help-inner-box'>
-\                        <p>{t('help_title')}</p>
+                        <p>{t('help_title')}</p>
                         <p className='help-text'>{t('help_message')}</p>
                         <button>{t('help_button')}</button>
                     </div>

@@ -1,11 +1,10 @@
-
-
 .help-box {
     background-color: rgb(29, 54, 48);
     height: 393px;
     display: flex;
     color: white;
     column-gap: 20px;
+    justify-content: space-between;
 }
 
 .help-outer-box {
@@ -43,7 +42,7 @@
 
 .help-img-box {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* border: blue solid; */
     width: 550px;
     position: relative;

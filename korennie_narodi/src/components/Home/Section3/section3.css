@@ -1,5 +1,7 @@
 .content-box {
     margin-top: 30px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .unifying1, .unifying2, .unifying3 {
@@ -7,26 +9,23 @@
 }
 
 .unifying1 {
-    width: 947px;
-    height: 309.16px;
-    margin: 0px 273px 30px 220px;
+    width: 946px;
+    height: 331.19px;
 }
 
 .unifying2 {
-    width: 999px;
-    height: 290px;
-    margin: 0px 167px 80px 274px;
+    width: 953px;
+    height: 333.17px;
 }
 
 .unifying3 {
-    width: 1068px;
-    height: 309.16px;
-    margin: 0px 152px 30px 220px;
+    width: 950.81px;
+    height: 335.06px;
 }
 
 .text-box1 {
-    width: 600px;
-    height: 250px;
+    /* width: 600px; */
+    height: 302.19px;
     background-color: rgb(110, 128, 122);
     word-wrap: break-word;
 }
@@ -43,23 +42,39 @@
     position: relative;
 }
 
-img {
+/* img {
     height: 100vh;
     width: auto;
+} */
+
+.content1 {
+    margin-bottom: 80px;
+    margin-top: 150px;
 }
 
 .unifying1 .box-img1 {
     width: 387px;
-    height: 240.22px;
+    height: 318px;
     z-index: -1;
     position: relative;
-    left: -39px;
+    left: -37px;
+    top: 44px;
+    /* overflow: hidden; */
+}
+
+.unifying1 .box-img1 img, .unifying2 .box-img1 img, .unifying3 .box-img1 img {
+   /* margin: 0 10% 0 30%; */
+   width: 387px;
+   height: 318px;
+   object-fit: cover;
 }
 
 .unifying2 .box-img1 {
     width: 439px;
     height: 290px;
     z-index: -1;
+    position: relative;
+    top: 42px;
 }
 
 .unifying3 .box-img1 {
@@ -68,6 +83,7 @@ img {
     z-index: -1;
     position: relative;
     left: -40px;
+    top: 45px;
 }
 
 .content1, .content2, .content3, .content4 {
@@ -77,7 +93,7 @@ img {
 }
 
 .unifying1 p, .unifying2 p, .unifying3 p {
-    padding: 52px 10px 30px 23px ;
+    padding: 106px 20px 27px 21px;
     color: rgb(247, 244, 238);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -92,13 +108,13 @@ img {
 .unifying2 p {
     -webkit-line-clamp: 6;
     letter-spacing: 0.1em;
-    padding: 60px 2px 2px 28px; 
+    padding: 77px 2px 17px 13px; 
 }
 
 .unifying3 p {
     -webkit-line-clamp: 8;
     letter-spacing: 0.1em;
-    padding: 40px 20px 20px 21px;
+    padding: 71px 20px 13px 21px;
 }
 
 .text-box1 a{
@@ -115,7 +131,11 @@ img {
 }
 
 .content2 a {
-    margin: 30px 20px 32px 388px;   
+    margin-left: 13px;   
+}
+
+.content2 {
+    margin-bottom: 80px;
 }
 
 .quotation {
@@ -172,9 +192,9 @@ img {
 
 .text-box2 p {
     font-family: 'Roboto', sans-serif;
-    letter-spacing: 5%;
+    letter-spacing: 0em;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 21px;
     line-height: 116.7%;
 }
 
@@ -198,7 +218,8 @@ img {
 }
 
 .content4 {
-    margin-bottom: 110px;
+    margin-top: 193px;
+    margin-bottom: 180px;
 }
 
 .content5 {
