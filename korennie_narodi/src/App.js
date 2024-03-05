@@ -8,7 +8,6 @@ import Nature from './components/Nature/Nature';
 import Problems from './components/Problems/Problems';
 import Help from './components/Help/Help';
 
-
 function App() {
   return (
     <Router>

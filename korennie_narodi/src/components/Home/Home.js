@@ -8,31 +8,35 @@ import Section2 from "./../Home/Section2/section2";
 import Section3 from "./../Home/Section3/section3";
 import Section4 from "./../Home/Section4/section4";
 import Section5 from "./../Home/Section5/section5";
+import SliderAndQuiz from './../SliderAndQuiz/SliderAndQuiz';
 
 const HomePage = () => {
   return (
     <>
         <div className="all-content">
             
-        <Header />
-        
-        <Main />
+          <Header />
+          
+          <Main />
 
-        <Section1 />
+          <Section1 />
 
-        <Section2 />
+          <Section2 />
 
-        <Section3 />
+          <Section3 />
 
-        <Section4 />
-
+        </div>
         <div className="bottom-sections">
+
+          <SliderAndQuiz/>
+
+          <Section4 />
+
           <Section5 />
           
           <Footer />
         </div>
-        
-      </div>
+      
     </>
   );
 }
