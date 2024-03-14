@@ -25,7 +25,7 @@ const Section4 = () => {
                         </div>
                     </div>
                     <div className='text-box4'>
-                        <div className='text-box-outer'>
+                        <div className='text-box-outer2'>
                             <div className='text-box-inner'>
                                 {/*  функция t для перевода */}
                                 <p className='p1'>{t('section4_quote')}</p>

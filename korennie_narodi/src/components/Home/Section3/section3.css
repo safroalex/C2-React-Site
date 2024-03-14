@@ -208,13 +208,15 @@
 .text-box-outer {
     display: inline-flex;
     justify-content: center;
-    width: 719px;
+    /* width: 719px; */
+    width: 770px;
+    margin-left: -28px;
     /* border: solid red; */
     max-height: 30px;
 }
 
 .author {
-    margin-top: 12px;
+    margin-top: 19px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5%;
@@ -230,6 +232,8 @@
 .content5 {
     margin-bottom: 30px;
 }
+
+
 
 
 /*                                                                НАША ПОЛИТИКА                                       */

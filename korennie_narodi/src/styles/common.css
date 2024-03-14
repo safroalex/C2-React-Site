@@ -23,12 +23,12 @@ header, main {
 } */
 
 
-li :hover , a:hover, .row-eng div:hover , .text-box-footer div :hover {
+li :hover , a:hover, .row-eng div:hover , .text-box-footer div:hover {
     text-decoration: underline;
 }
 
 
-.logo-container img :hover, .row-eng div:hover , .text-box-footer div :hover {
+.logo-container img :hover, .row-eng div:hover , .text-box-footer div:hover {
     cursor: pointer;
 }
 
@@ -232,17 +232,17 @@ li :hover , a:hover, .row-eng div:hover , .text-box-footer div :hover {
         /* margin-left: 23px; */
     }
     
-    .unifying2 .text-box1 :first-child {
-        /* margin-bottom: 33px; */
-    }
+    /* .unifying2 .text-box1 :first-child {
+        margin-bottom: 33px;
+    } */
     
-    .content2 a {
-        /* margin-left: 13px;    */
-    }
+    /* .content2 a {
+        margin-left: 13px;   
+    } */
     
-    .content2 {
-        /* margin-bottom: 80px; */
-    }
+    /* .content2 {
+        margin-bottom: 80px;
+    } */
     
     .quotation {
         width: 752px;

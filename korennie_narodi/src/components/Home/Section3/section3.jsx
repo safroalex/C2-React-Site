@@ -70,7 +70,7 @@ const Section3 = () => {
                                 </div>
                             </div>
                             <div className='text-box2'>
-                                <div className='text-box-outer'>
+                                <div className='text-box-outer box-outer1'>
                                     <div className='text-box-inner'>
                                         <p className='p1'>{t('indigenous_teaching_quote1')}</p>
                                     </div>

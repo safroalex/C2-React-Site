@@ -48,7 +48,7 @@
 .text-box4 {
     /* display: inline; */
     position: absolute;
-    top: 61px;
+    top: 87px;
     left: 27px;
     width: 719px;
     height: 173px;
@@ -70,16 +70,17 @@
     max-height: 30px;
 }
 
-.text-box-outer {
+.text-box-outer2 {
     display: inline-flex;
     justify-content: center;
     width: 719px;
     /* border: solid red; */
     max-height: 30px;
+    margin-left: 10px;
 }
 
 .author2 {
-    margin-top: 12px;
+    margin-top: 19px;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 5%;
