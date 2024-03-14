@@ -17,9 +17,9 @@ a, a:link, a:visited  {
     text-decoration: none;
 }
 
-a:hover  {
+/* a:hover  {
     text-decoration: none;
-}
+} */
 
 /* Common */
 
@@ -80,7 +80,7 @@ button:focus, button:active {
 	border: 0;
 } */
 
-label {
+label, button, a {
 	cursor: pointer;
 }
 

@@ -40,7 +40,9 @@ function Header() {
                 <div className='links-outer'>
                     <div className='row-eng'>
                         {/* Используем buttonLabel для отображения текущего языка и меняем его при клике */}
-                        <button onClick={changeLanguage} style={{ all: 'unset' }}>{buttonLabel}</button>
+                        <div>
+                            <button onClick={changeLanguage} style={{ all: 'unset' }}>{buttonLabel}</button>
+                        </div>
                     </div>
                     <nav>
                         <ul>

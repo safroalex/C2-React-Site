@@ -6,7 +6,7 @@ const Section1 = () => {
     const { t } = useTranslation();
 
     return ( 
-        <section>
+        <section className='sec1-main'>
             <div className='sec1-content'>
                 <div>
                     <div className='box-sec1_1'>

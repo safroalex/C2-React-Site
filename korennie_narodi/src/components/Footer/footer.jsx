@@ -27,7 +27,9 @@ const Footer = () => {
                         </div>
                         <div className='text-box-footer'>
                             <p>{t('footer_nations_nature')}</p>
-                            <a href="">{t('footer_learn_more')}</a>
+                            <div>
+                                <a href="">{t('footer_learn_more')}</a>
+                            </div>
                         </div>
                     </div>
                     <div className='narodi-i-interview'>
@@ -36,7 +38,9 @@ const Footer = () => {
                         </div>
                         <div className='text-box-footer'>
                             <p>{t('footer_nations_interview')}</p>
-                            <a href="">{t('footer_learn_more')}</a>
+                            <div>
+                                <a href="">{t('footer_learn_more')}</a>
+                            </div>
                         </div>
                     </div>
                 </div>

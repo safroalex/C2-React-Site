@@ -8,7 +8,8 @@ import Section2 from "./../Home/Section2/section2";
 import Section3 from "./../Home/Section3/section3";
 import Section4 from "./../Home/Section4/section4";
 import Section5 from "./../Home/Section5/section5";
-import SliderAndQuiz from './../SliderAndQuiz/SliderAndQuiz';
+import SliderAndQuiz from "./../Home/SliderAndQuiz/SliderAndQuiz";
+
 
 const HomePage = () => {
   return (

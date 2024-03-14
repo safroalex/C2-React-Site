@@ -23,6 +23,22 @@ header, main {
 } */
 
 
+li :hover , a:hover, .row-eng div:hover , .text-box-footer div :hover {
+    text-decoration: underline;
+}
+
+
+.logo-container img :hover, .row-eng div:hover , .text-box-footer div :hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 
 @media (max-width: 1440px) {
     .footer-img {

@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './SliderAndQuiz.css'
 import { useState } from 'react';
-import end_icon from "./../../images/end-icon.png";
+import end_icon from "./../../../images/end-icon.png";
 
 
 function SampleNextArrow(props) {

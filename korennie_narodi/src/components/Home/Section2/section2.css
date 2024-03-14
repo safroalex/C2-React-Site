@@ -1,6 +1,6 @@
-section {
-    /* width: 1440px; */
+.sec2-main {
     width: 100vw;
+    margin: 0 auto;
 }
 
 .sec2-content {
@@ -10,7 +10,7 @@ section {
     padding-top: 20px;
 }
 
-p, .box-sec2_1 h1 {
+.sec2-main p, .box-sec2_1 h1 {
     color: rgb(247, 244, 238);
     font-family: 'Roboto';
     line-height: auto;
@@ -19,7 +19,7 @@ p, .box-sec2_1 h1 {
     margin-bottom: 15px;
 }
 
-p {
+.sec2-main p {
     color: black;
     font-size: 24px;
 }
@@ -28,7 +28,7 @@ p {
     margin-bottom: 10px;
 }
 
-h1 {
+.sec2-main h1 {
     font-size: 96px;
     font-weight: 500;
     text-transform: uppercase;
