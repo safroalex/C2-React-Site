@@ -7,6 +7,8 @@ import Interviews from './components/Interviews/Interviews';
 import Nature from './components/Nature/Nature';
 import Problems from './components/Problems/Problems';
 import Help from './components/Help/Help';
+import AboutUs from './components/About_us/AboutUs';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/about_us" element={<AboutUs />} />
           <Route path="/peoples" element={<Peoples />} />
           <Route path="/interviews" element={<Interviews />} />
           <Route path="/nature" element={<Nature />} />

@@ -46,6 +46,7 @@ function Header() {
                     </div>
                     <nav>
                         <ul>
+                            <li><Link to="/about_us">{t('about_us')}</Link></li>
                             <li><Link to="/peoples">{t('Народы')}</Link></li>
                             <li><Link to="/interviews">{t('Интерьвью')}</Link></li>
                             <li><Link to="/nature">{t('Природа')}</Link></li>
