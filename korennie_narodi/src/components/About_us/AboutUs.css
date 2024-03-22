@@ -97,7 +97,8 @@
     align-items: center;
     margin-top: 100px;
     width: 1126px;
-    height: 394px;
+    min-height: 394px;
+    max-height: 450px;
     border-radius: 82px;
     border: rgb(110, 128, 122) solid 10px;
     margin-bottom: 170px;
@@ -108,8 +109,9 @@
     display: flex;
     justify-content: space-between;
     column-gap: 229px;
-    height: 323px;
+    min-height: 323px;
     /* border: violet solid; */
+    /* padding-top: 20px; */
 }
 
 .faq-first {
@@ -118,6 +120,10 @@
     margin-left: -30px;
     letter-spacing: 0.15em;
     /* border: red solid; */
+}
+
+.faq-first h4 {
+    margin-top: max(20px);
 }
 
 .faq-second {
@@ -139,11 +145,11 @@
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .plus {
     position: relative;
-    cursor: pointer;
     /* margin-top: -1px; */
     display: flex;
     justify-content: center;

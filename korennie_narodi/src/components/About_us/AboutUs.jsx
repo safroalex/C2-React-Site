@@ -91,9 +91,9 @@ function AboutUs() {
             </div>
             <div className='faq-second'>
               <div className='common-block'>
-                <div className='options'>
+                <div className='options' onClick={() => {setContainerStyle5_1({display: 'block'}); toggleVisibility1(); }}>
                   <p>как можно помочь нашей организации?</p>
-                  <div className='plus' onClick={() => {setContainerStyle5_1({display: 'block'}); toggleVisibility1(); }}>
+                  <div className='plus'>
                     {!isVisible1 && <div className='vertical-line1'></div>}
                     <div className='horizontal-line'></div>
                   </div>
@@ -102,13 +102,15 @@ function AboutUs() {
                   <img src={line} alt="" />
                 </div>
                 <div>
-                  {isVisible1 && <div className='return' style={containerStyle5_1}></div>}
+                  {isVisible1 && <div className='return' style={containerStyle5_1}>
+                    <p>Aldus PageMaker including versions of Lorem Ipsum.</p>
+                  </div>}
                 </div>
               </div>
               <div className='common-block'>
-                <div className='options'>
+                <div className='options' onClick={() => {setContainerStyle5_3({display: 'block'}); toggleVisibility2(); }}>
                   <p>куда будет уходить моя помощь?</p>
-                  <div className='plus' onClick={() => {setContainerStyle5_3({display: 'block'}); toggleVisibility2(); }}>
+                  <div className='plus'>
                     {!isVisible2 && <div className='vertical-line2'></div>}
                     <div className='horizontal-line'></div>
                   </div>
@@ -116,14 +118,16 @@ function AboutUs() {
                 <div>
                   <img src={line} alt="" />
                 </div>
-                <div>
-                  {isVisible2 && <div className='return' style={containerStyle5_3}></div>}
+                <div className='p-decoration'>
+                  {isVisible2 && <div className='return' style={containerStyle5_3}>
+                    <p>It was popularised in the 1960s </p>
+                  </div>}
                 </div>
               </div>
               <div className='common-block'>
-                <div className='options'>
+                <div className='options' onClick={() => {setContainerStyle5_5({display: 'block'}); toggleVisibility3(); }}>
                   <p>как я могу с вами связаться?</p>
-                  <div className='plus' onClick={() => {setContainerStyle5_5({display: 'block'}); toggleVisibility3(); }}>
+                  <div className='plus'>
                     {!isVisible3 && <div className='vertical-line3'></div>}
                     <div className='horizontal-line'></div>
                   </div>

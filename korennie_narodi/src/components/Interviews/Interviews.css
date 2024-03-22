@@ -1,0 +1,141 @@
+.interviews-content {
+    width: 1150px;
+    margin: 150px auto;
+    /* border: yellow solid; */
+}
+
+.line-div {
+    display: flex;
+    margin: 23px auto;
+}
+
+.line-div :nth-child(2) {
+    width: 375px;
+}
+
+.line-width {
+    width: 900px;
+}
+
+/*                                                   Interview-section-1                                               */
+
+
+.interview-box-1_1 p {
+ font-size: 28px;
+ text-transform: uppercase;
+ width: 586px;
+}
+
+.interview-box-1_2  img {
+    width: 500px;
+    height: 340px;
+    margin-top: 4px;
+}
+
+.interview-box-1_2 {
+    display: flex;
+    column-gap: 24px;
+    /* border: blue solid; */
+    margin-bottom: 170px;
+}
+
+.interview-box-1_2 p {
+    font-size: 24px;
+    /* border: red solid; */
+    letter-spacing: 0.1em;
+}
+
+.interview-box-1_2 :nth-child(2) {
+    width: 603px;
+    word-wrap: break-word;
+}
+
+
+/*                                                   Interview-section-2                                               */
+
+.interview-box-2_1 {
+    position: relative;
+    /* border: red solid; */
+    letter-spacing: 0.1em;
+    margin-bottom: 216px;
+    height: 1520px;
+}
+
+
+.interview-box-2_1 :nth-child(1) h2, .interview-box-2_2 h2, .interview-box-2_3 h2 {
+    text-transform: uppercase;
+    font-size: 44px;
+    margin-bottom: 32px;
+    letter-spacing: 0.13em;
+}
+
+.interview-box-2_1 :nth-child(1) {
+    width: 415px;
+    word-wrap: break-word;
+}
+
+.interview-box-2_1 :nth-child(1) p , .interview-box-2_2 p , .interview-box-2_3 p {
+    font-size: 24px;
+}
+
+.deer {
+    position: absolute;
+    width: 438px;
+    height: 283px;
+    top: 0;
+    right: 275px;
+}
+
+.landscape3 {
+    width: 584px;
+    height: 369px;
+    position: absolute;
+    right: 20px;
+    top: 240px;
+    z-index: -1;
+}
+
+.sitting {
+    width: 655px;
+    height: 436px;
+    margin-top: 65px;
+}
+
+.shack {
+    width: 584px;
+    height: 408px;
+    position: absolute;
+    right: 11px;
+    top: 1100px;
+}
+
+.interview-box-2_2 {
+    width: 453px;
+    word-wrap: break-word;
+    position: absolute;
+    right: 10px;
+    top: 640px;
+}
+
+.interview-box-2_3 {
+    position: absolute;
+    top: 1100px;
+    width: 531px;
+}
+
+.interview-box-2_2 h2 , .interview-box-2_3 h2 {
+    margin-bottom: 18px;
+}
+
+
+/*                                                   Interview-section-3                                               */
+
+.interview-box-3_1 h2 {
+    text-transform: uppercase;
+    font-size: 44px;
+    letter-spacing: 0.13em;
+}
+
+.interview-box-3_1 p {
+    font-size: 24px;
+}

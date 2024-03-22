@@ -333,11 +333,332 @@ li :hover , a:hover, .row-eng div:hover , .text-box-footer div:hover {
         margin-bottom: 720px;
     }
     
+}
 
 
 
 
 
+
+
+
+/*                                                                     Interviews Mobile                                                          */
+
+
+@media (max-width: 768px) {
+
+    header {
+        height: 50px;
+    }
+
+    .logo-container img {
+        width: 43.75px;
+    }
+
+    .logo-container {
+        margin-top: 3.5px;
+        margin-left: 0px;
+    }
+    
+    .container {
+        column-gap: 227px;
+    }
+
+    .ru {
+        font-size: 8px;
+        letter-spacing: 0.1em;
+        font-weight: 500;
+        margin-left: -0.1em;
+    }
+
+    .links-outer {
+        display: none;
+    }
+
+
+    
+
+
+
+    footer {
+        margin-bottom: min(190px);
+        margin-top: 110px;
+    }
+
+
+    .footer-box {
+        /* height: 393px; */
+        padding-top: 16px;
+        height: auto;
+        display: flex;
+        background-color: rgb(225,223,218);
+        position: relative;
+        z-index: -10;
+        bottom: 0;
+        margin: 0 auto;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        column-gap: 20px;
+        /* border: red solid; */
+    }
+    
+    .narodi-i-priroda, .narodi-i-interview {
+        position: relative;
+        z-index: -1;
+        width: auto;
+        height: auto;
+        padding-bottom: 0%;
+        /* border: blue solid; */
+    }
+
+    .narodi-i-priroda {
+        margin-bottom: 45px;
+    }
+    
+    
+    .text-box-footer {
+        display: inline;
+        position: absolute;
+        top: 52px;
+        left: 20px;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Roboto';
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        line-height: 116.7%;
+    }
+    
+    .text-box-footer a {
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    
+    .text-box-footer p {
+        margin-bottom: 7px;
+        line-height: 1.2em;
+        color: white;
+        width: 97px;
+        margin-bottom: 15px;
+    }
+    
+    .footer-text {
+        display: inline-block;
+        width: 540px;
+    }
+    
+    .footer-img {
+        display: block;
+        /* border: yellow solid; */
+        margin-right: 0%;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-img img {
+        width: 296px;
+        height: 185.97px;
+    }
+    
+    .footer-text {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 116.7%;
+        letter-spacing: 15%;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        /* border: blueviolet solid; */
+    }
+    
+    .footer-text p {
+        font-size: 14px;
+    }
+    
+    .keeper {
+        width: 296px;
+        height: auto;
+        word-wrap: break-word;
+        padding-left: 0%;
+        padding-top: 12px;
+        /* border: black solid; */
+        margin-bottom: 18px;
+    }
+    
+    .keeper :first-child , .keeper :nth-child(2), .review , .keeper :last-child {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 116.7%;
+        letter-spacing: 15%;
+        margin: 0% auto;
+    }
+
+    .review {
+        margin-top: 10px;
+        font-size: 8px;
+    }
+    
+    .keeper :nth-child(2), .review, .keeper :last-child {
+        font-size: 10px;
+        margin-bottom: 0%;
+        /* border: green solid 2px; */
+    }
+
+    .keeper :nth-child(2) {
+        margin-top: 10px;
+        font-size: 6px;
+    }
+    
+    .keeper :nth-child(4) {
+        margin-top: 24px;
+        font-size: 6px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .interviews-content {
+        width: 342px;
+        margin: 45px auto;
+        /* border: yellow solid; */
+    }
+    
+    .line-div {
+        display: flex;
+        margin: 42px auto;
+    }
+
+    .line-div :first-child {
+        display: none;
+    }
+    
+    .line-div :nth-child(2) {
+        width: 335px;
+    }
+    
+    
+    /*                                                   Interview-section-1                                               */
+    
+    
+    .interview-box-1_1 p {
+     width: 209px;
+     font-size: 28px;
+    }
+    
+    .interview-box-1_2  img {
+        width: 335px;
+        height: 222px;
+    }
+    
+    .interview-box-1_2 {
+        display: block;
+        /* border: blue solid; */
+        margin-bottom: 68px;
+    }
+    
+    .interview-box-1_2 p {
+        font-size: 14px;
+        /* border: red solid; */
+        letter-spacing: 0.1em;
+    }
+    
+    .interview-box-1_2 :nth-child(2) {
+        word-wrap: break-word;
+        margin-top: 42px;
+        width: 338px;
+    }
+    
+    
+    /*                                                   Interview-section-2                                               */
+    
+    .interview-box-2_1 {
+        letter-spacing: 0.1em;
+        margin-bottom: 0;
+        height: 1445px;
+    }
+    
+    
+    .interview-box-2_1 :nth-child(1) h2, .interview-box-2_2 h2, .interview-box-2_3 h2 {
+        text-transform: uppercase;
+        font-size: 32px;
+        margin-bottom: 28px;
+        letter-spacing: 0.13em;
+    }
+    
+    .interview-box-2_1 :nth-child(1) {
+        width: 335px;
+        word-wrap: break-word;
+    }
+    
+    .interview-box-2_1 :nth-child(1) p , .interview-box-2_2 p , .interview-box-2_3 p {
+        font-size: 14px;
+    }
+    
+    .deer , .landscape3, .shack {
+        width: 335px;
+        height: 210px;
+        position: static;
+        margin: 40px auto;
+    }
+
+    .sitting {
+        display: none;
+    }
+    
+    .interview-box-2_2 {
+        width: 338px;
+        word-wrap: break-word;
+        position: static;
+    }
+    
+    .interview-box-2_3 {
+        margin: 0;
+        position: static;
+        width: 338px;
+    }
+    
+    .interview-box-2_2 h2 , .interview-box-2_3 h2 {
+        margin-bottom: 18px;
+    }
+    
+    
+    /*                                                   Interview-section-3                                               */
+    
+    .interview-box-3_1 h2 {
+        text-transform: uppercase;
+        font-size: 32px;
+        letter-spacing: 0.13em;
+    }
+
+    .interview-box-3_1 {
+        margin-top: 240px;
+    }
+
+    .interview-box-3_1 .line-div {
+        margin: 21px auto;
+    }
+    
+    .interview-box-3_1 p {
+        font-size: 14px;
+    }
 
 }
 
