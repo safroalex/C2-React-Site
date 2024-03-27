@@ -37,6 +37,15 @@ const Section4 = () => {
                                 <p className='author2'>{t('section4_author')}</p>
                             </div>
                         </div>
+                        <div className='text-box-outer-mobile'>
+                            <div className='text-box-outer-mobile-1'>
+                                <p>{t('section4_quote_mobile_1')}</p>
+                                <p>{t('section4_quote_mobile_2')}</p>
+                            </div>
+                            <div className='text-box-outer-mobile-2'>
+                                <p>{t('section4_author')}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

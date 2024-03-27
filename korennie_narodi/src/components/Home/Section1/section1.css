@@ -48,3 +48,63 @@
 .outer-text1_2 {
     margin-top: 30px;
 }
+
+.sec1-mobile {
+    display: none;
+}
+
+
+
+
+
+/*                                                                     Section1 Mobile                                                          */
+
+
+@media (max-width: 768px) {
+    .sec1-main {
+        width: 100vw;
+        margin: 0 auto;
+        /* border: red solid; */
+    }
+
+    .sec1-mobile {
+        display: block;
+        text-align: center;
+        /* border: black solid; */
+    }
+    
+    .sec1-main p {
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        margin: 0%;
+        /* border: blue solid; */
+    }
+    
+    
+    .sec1-main h1 {
+        font-size: 28px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+    .box-sec1_1 {
+        margin-bottom: 0%;
+    }
+
+    .subsec1-1_1 {
+        font-weight: 700;
+    }
+
+    .subsec1-1_1 p {
+        margin-bottom: 20px;
+        margin-top: 7px;
+    }
+
+
+    .subsec1-1_1 , .subsec1-1_2 {
+        width: 315px;
+        word-wrap: break-word;
+        margin: 0 auto;
+        /* border: red solid; */
+    }
+}

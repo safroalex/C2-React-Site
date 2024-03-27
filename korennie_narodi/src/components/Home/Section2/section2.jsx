@@ -13,7 +13,7 @@ const Section2 = () => {
                         <h1>{t('our_mission')}</h1>
                     </div>
                 </div>
-                <div>
+                <div className='box-hide'>
                     <div className='box-sec2_1'>
                         <div className='box-sec2_2'>
                             <div>
@@ -23,6 +23,11 @@ const Section2 = () => {
                             <p className='text2_1'>{t('mission_statement_3')}</p>
                             <p>{t('mission_statement_4')}</p>
                         </div>
+                    </div>
+                </div>
+                <div className='sec2-mobile'>
+                    <div>
+                        <p>{t('mission_statement_1')} {t('mission_statement_2')} {t('mission_statement_3')} {t('mission_statement_4')}</p>
                     </div>
                 </div>
             </div>

@@ -86,3 +86,42 @@
     letter-spacing: 5%;
     line-height: 116.7%;
 }
+
+.text-box-outer-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+.content4 {
+    margin-bottom: 180px;
+}    
+
+.text-box4 .text-box-outer2 , .text-box4 .text-box-outer {
+    display: none;
+}
+
+.text-box4 .text-box-outer-mobile {
+    display: block;
+}
+
+.text-box4 .text-box-outer-mobile-1 , .text-box4 .text-box-outer-mobile-2 {
+    display: block;
+    letter-spacing: 0.1em;
+    /* position: absolute; */
+    width: 228px;
+    text-align: center;
+    /* border: red solid; */
+    margin-left: 14px;
+}
+
+.text-box4 .text-box-outer-mobile-1 {
+    margin-top: -40px;
+}
+
+.text-box-outer-mobile-2 p {
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+}

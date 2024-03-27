@@ -22,7 +22,10 @@ const Section3 = () => {
                 <div className='content1'>
                     <div className='unifying1'>
                         <div className='text-box1'>
-                            <p>{t('indigenous_small_numbered_people_definition')}</p>
+                            <p className='desktop-text'>{t('indigenous_small_numbered_people_definition')}</p>
+                            <div className='mobile-text1'>
+                                <p>{t('indigenous_small_numbered_people_definition')}</p>
+                            </div>
                             <a href="">{t('learn_more')}</a>
                         </div>
                         <div className='box-img1'>
@@ -36,16 +39,27 @@ const Section3 = () => {
                             <img src={game} alt="" />
                         </div>
                         <div className='text-box1'>
-                            <p>{t('game_description')}</p>
-                            <a href="">{t('learn_more')}</a>
+                            <p className='desktop-text'>{t('game_description')}</p>
+                            <div className='mobile-text2'>
+                                <p>{t('game_description_mobile')}</p>
+                            </div>
+                            <div className='a-content2'>
+                                <a href="">{t('learn_more')}</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div className='content3'>
                     <div className='unifying3'>
                         <div className='text-box1'>
-                            <p>{t('indigenous_peoples_challenges')}</p>
-                            <div>
+                            <p className='desktop-text'>{t('indigenous_peoples_challenges')}</p>
+                            <div className='mobile-text3'>
+                                <p>{t('indigenous_peoples_challenges_mobile')}</p>
+                            </div>
+                            <div className='mobile-a-3'>
+                                <a href="">{t('learn_more')}</a>
+                            </div>
+                            <div className='desktop-text'>
                                 <a href="">{t('learn_more')}</a>
                             </div>
                         </div>
@@ -69,7 +83,7 @@ const Section3 = () => {
                                     <img src={line} alt="" />
                                 </div>
                             </div>
-                            <div className='text-box2'>
+                            <div className='text-box2 desktop-text'>
                                 <div className='text-box-outer box-outer1'>
                                     <div className='text-box-inner'>
                                         <p className='p1'>{t('indigenous_teaching_quote1')}</p>
@@ -91,6 +105,14 @@ const Section3 = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className='mobile-text4'>
+                                <div className='text4-1'>
+                                    <p>{t('indigenous_teaching_quote1')} {t('indigenous_teaching_quote2')} {t('indigenous_teaching_quote3')}</p>
+                                </div>
+                                <div className='text4-2'>
+                                    <p className='author'>{t('author_arseny_karsakov')}</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -104,7 +126,7 @@ const Section3 = () => {
                         <div className='block1'>
                             <img src={zeroOne} alt="" />
                             <div className='subcontainer'>
-                                <p>{t('culture_preservation_title')}</p>
+                                <p className='subcontainer-title'>{t('culture_preservation_title')}</p>
                                 <div>
                                     <p>{t('culture_preservation_description')}</p>
                                 </div>
@@ -113,7 +135,7 @@ const Section3 = () => {
                         <div className='block1'>
                             <img src={zeroTwo} alt="" />
                             <div className="subcontainer">
-                                <p>{t('educational_interaction_title')}</p>
+                                <p className='subcontainer-title'>{t('educational_interaction_title')}</p>
                                 <div>
                                     <p>{t('educational_interaction_description')}</p>
                                 </div>
@@ -122,7 +144,7 @@ const Section3 = () => {
                         <div className='block1'>
                             <img src={zeroThree} alt="" />
                             <div className="subcontainer">
-                                <p>{t('website_information_title')}</p>
+                                <p className='subcontainer-title'>{t('website_information_title')}</p>
                                 <div>
                                     <p>{t('website_information_description')}</p>
                                 </div>

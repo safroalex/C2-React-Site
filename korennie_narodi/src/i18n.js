@@ -31,7 +31,9 @@ const resources = {
         indigenous_small_numbered_people_definition: "According to Russian legislation, an indigenous small-numbered people is one that is settled in the territory of their ancestors, inherits traditional methods of management, and whose population does not exceed 50,000 people",
         learn_more: "Learn more",
         game_description: "During the game of kheer shaaglan, a participant must break the spine bone of a bull or cow with the palm. To be able to break the bone, a special technique is used: several trial strikes are made to 'feel' the bone, and then the participant delivers the final, most powerful blow with the back of the palm. This game is part of the traditional culture of the Buryats.",
+        game_description_mobile: "During the game of kheer shaaglan, a participant must break the spine bone of a bull or cow with the palm. To be able to break the bone, a special technique is used. This game is part of the traditional culture of the Buryats.",
         indigenous_peoples_challenges: "The difficulty of preserving the language, the disappearance of ancient traditions, threats to national cultures, destruction of ecosystems - these are the problems faced by indigenous peoples not only in Russia but also in other countries. In 1992, the UN adopted the 'Declaration on the Rights of Persons Belonging to National or Ethnic, Religious and Linguistic Minorities', securing the rights of minorities in multi-ethnic states.",
+        indigenous_peoples_challenges_mobile: "In 1992, the UN adopted the 'Declaration on the Rights of Persons Belonging to National or Ethnic, Religious and Linguistic Minorities', securing the rights of minorities in multi-ethnic states.",
         indigenous_teaching_quote1: "The indigenous peoples of Russia teach us to live in harmony with nature,",
         indigenous_teaching_quote2: "showing respect for the land and sustainability for future",
         indigenous_teaching_quote3: "generations.",
@@ -47,11 +49,15 @@ const resources = {
         //section4
         section4_quote: "Nature can do without man, but not he without it.",
         section4_author: "Ali Apsheron",
+        section4_quote_mobile_1: "Nature can do without man,",
+        section4_quote_mobile_2: "but not he without it.",
 
         //section5
         help_title: "You can help",
         help_message: "Protect the people and places you love. Make your contribution today.",
         help_button: "yes - I want to help!",
+        help_button_mobile: "Want to help!",
+
 
         //footer
         footer_write_to_us: "Write to us",
@@ -123,7 +129,9 @@ const resources = {
         indigenous_small_numbered_people_definition: "Согласно российскому законодательству, коренной малочисленный народ — это тот, который расселен на территории расселения своих предков, наследует традиционные методы хозяйствования и чья численность не превышает 50 000 человек.",
         learn_more: "Узнать больше",
         game_description: "Во время игры в хээр шааглан участник должен разбить ладонью хребтовую кость быка или коровы. Чтобы суметь сломать кость, используется специальная техника: делается несколько пробных ударов, чтобы «почувствовать» кость, и потом тыльной стороной ладони участник или участница наносит финальный самый сильный удар по кости. Эта игра — часть традиционной культуры бурятов.",
+        game_description_mobile: "Во время игры в хээр шааглан участник должен разбить ладонью хребтовую кость быка или коровы. Чтобы суметь сломать кость, используется специальная техника. Эта игра — часть традиционной культуры бурятов.",
         indigenous_peoples_challenges: "Сложность сохранения языка, исчезновение древних традиций, угроза национальным культурам, разрушение экосистем — с этими проблемами сталкиваются коренные народы не только России, но и других стран. В 1992 году в ООН была принята «Декларация о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам», закреплявшая права меньшинств в многосоставных государствах.",
+        indigenous_peoples_challenges_mobile: "В 1992 году в ООН была принята «Декларация о правах лиц, принадлежащих к национальным или этническим, религиозным и языковым меньшинствам», закреплявшая права меньшинств в многосоставных государствах.",
         indigenous_teaching_quote1: "Коренные народы России учат нас жить в гармонии с природой,",
         indigenous_teaching_quote2: "демонстрируя уважение к земле и устойчивость для будущих",
         indigenous_teaching_quote3: "поколений.",
@@ -139,11 +147,14 @@ const resources = {
         //section4
         section4_quote: "Природа может обойтись без человека, а он без нее - нет.",
         section4_author: "Али Апшерон",
+        section4_quote_mobile_1: "Природа может обойтись без человека,",
+        section4_quote_mobile_2: "а он без нее - нет.",
 
         //section5
         help_title: "Вы можете помочь",
         help_message: "Защитите людей и места, которые вы любите. Сделайте ваш вклад сегодня.",
         help_button: "да - я хочу помочь!",
+        help_button_mobile: "Хочу помочь!",
 
         //footer
         footer_write_to_us: "Напишите нам",

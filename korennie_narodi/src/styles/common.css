@@ -49,303 +49,11 @@ li :hover , a:hover, .row-eng div:hover , .text-box-footer div:hover {
 
 @media (max-width: 768px) {
 
-    main {
-        width: 390px;
-    }
-
-    .landscape0 img {
-        width: 390px;
-    }
 
 
+/*                                                                     Header                                                          */
 
 
-
-
-
-    header {
-        height: 50px;
-    }
-
-    .logo-container img {
-        width: 50px;
-    }
-
-    .logo-container {
-        margin-top: -8px;
-        margin-left: 0px;
-    }
-    
-    .container {
-        column-gap: 227px;
-    }
-
-    .ru {
-        font-size: 8px;
-        letter-spacing: 0.1em;
-        font-weight: 500;
-        margin-left: -0.1em;
-    }
-
-    h1 {
-        font-size: 24px;
-    }
-
-    p {
-        font-size: 14px;
-    }
-
-
-
-
-
-
-    
-
-
-    .box-sec2_1 {
-        border: red solid;
-    }
-
-    .box-sec2_2 {
-        border: blue solid;
-    }
-
-    .box-sec2_2 p {
-        border: green solid;
-    }
-
-    .box-sec2_2 :last-child , .box-sec2_1 div :last-child, .text2_1 {
-        text-align: center;
-     }
-
-
-
-
-
-
-
-
-
-
-
-    .content-box {
-        /* margin-top: 30px; */
-        max-width: 390px;
-        margin: 0 auto;
-        margin-top: -150px;
-    }
-
-    .text-box1 {
-        height: 127px;
-        letter-spacing: 0em;
-    }
-
-    .unifying1 .box-img1, .unifying2 .box-img1, .unifying1 .box-img3 {
-        width: 142px;
-    }
-
-    .unifying1 .box-img1 img, .unifying2 .box-img1 img, .unifying3 .box-img1 img {
-        width: 142px;
-        height: 132px;
-    }
-    
-
-
-    .unifying1, .unifying2, .unifying3 {
-        width: 221px;
-        height: 139.6px;
-    }
-    
-    .content-box .text-box1:nth-child(odd) {
-        left: 0;
-        top: 33px;
-        position: relative;
-    }
-    
-    .content-box .text-box1:nth-child(even) {
-        right: 40px;
-        bottom: -28.5px;
-        position: relative;
-    }
-    
-    .content1 {
-        margin-bottom: 80px;
-        margin-top: 150px;
-    }
-    
-    .unifying1 .box-img1 {
-        width: 142.77px;
-        height: 134.04px;
-        left: -37px;
-        top: 44px;
-    }
-    
-    .unifying1 .box-img1 img, .unifying2 .box-img1 img, .unifying3 .box-img1 img {
-       /* margin: 0 10% 0 30%; */
-       width: 142.77px;
-       height: 134.04px;
-    }
-    
-    .unifying2 .box-img1 {
-        /* width: 439px;
-        height: 290px;
-        z-index: -1;
-        position: relative; */
-        top: 42px;
-    }
-    
-    .unifying3 .box-img1 {
-        /* width: 509px;
-        height: 270px;
-        z-index: -1;
-        position: relative; */
-        left: -40px;
-        top: 45px;
-    }
-    
-    .content1, .content2, .content3, .content4 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .unifying1 p, .unifying2 p, .unifying3 p {
-        padding: 0 0;
-        font-size: 10px;
-    }
-    
-    .unifying2 p {
-        -webkit-line-clamp: 7;
-        letter-spacing: 0.1em;
-        padding: 0 0; 
-    }
-    
-    .unifying3 p {
-        -webkit-line-clamp: 7;
-        /* letter-spacing: 0.1em;
-        padding: 71px 20px 13px 21px; */
-    }
-    
-    .text-box1 a{   
-        font-size: 10px;
-        /* margin-left: 23px; */
-    }
-    
-    /* .unifying2 .text-box1 :first-child {
-        margin-bottom: 33px;
-    } */
-    
-    /* .content2 a {
-        margin-left: 13px;   
-    } */
-    
-    /* .content2 {
-        margin-bottom: 80px;
-    } */
-    
-    .quotation {
-        width: 752px;
-        height: 240px;
-        position: relative;
-        /* border: green solid; */
-    }
-    
-    .img-box {
-        width: 84.39px;
-        border: blue solid;
-    }
-    
-    .decoration1 , .decoration2 {
-        height: 120px;
-        position: relative;
-    }
-    
-    .decoration1 img {
-        position: absolute;
-        left: 2px;
-        top: 17px;
-    }
-    
-    .decoration2 img {
-        position: absolute;
-        right: 2px;
-        bottom: 17px;
-    }
-    
-    .line-box {
-        width: 752px;
-    }
-    
-    .decoration1 .line-box {
-        position: absolute;
-        top: -20px;
-    }
-    
-    .decoration2 .line-box {
-        position: absolute;
-        bottom: -20px;
-    }
-    
-    .text-box2 {
-        /* display: inline; */
-        position: absolute;
-        top: 61px;
-        left: 27px;
-        width: 719px;
-        height: 173px;
-        /* border: blue solid; */
-    }
-    
-    .text-box2 p {
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0em;
-        font-weight: 400;
-        font-size: 21px;
-        line-height: 116.7%;
-    }
-    
-    .text-box-inner {
-        display: inline-flex;
-        justify-content: center;
-        /* border: solid blueviolet; */
-        max-height: 30px;
-    }
-    
-    .text-box-outer {
-        display: inline-flex;
-        justify-content: center;
-        width: 719px;
-        /* border: solid red; */
-        max-height: 30px;
-    }
-    
-    .author {
-        margin-top: 12px;
-    }
-    
-    .content4 {
-        margin-top: 193px;
-        margin-bottom: 180px;
-    }
-    
-    .content5 {
-        margin-bottom: 720px;
-    }
-    
-}
-
-
-
-
-
-
-
-
-/*                                                                     Interviews Mobile                                                          */
-
-
-@media (max-width: 768px) {
 
     header {
         height: 50px;
@@ -357,11 +65,18 @@ li :hover , a:hover, .row-eng div:hover , .text-box-footer div:hover {
 
     .logo-container {
         margin-top: 3.5px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
     
+
+    /* очень важная настройка ниже не трогать */
+
     .container {
         column-gap: 227px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        
     }
 
     .ru {
@@ -376,13 +91,133 @@ li :hover , a:hover, .row-eng div:hover , .text-box-footer div:hover {
     }
 
 
+    .sliding-menu {
+        position: fixed;
+        width: 320px;
+        right: 703px;
+        height: 200%;
+        /* background-color: wheat; */
+        background-color: rgb(225, 223, 218);
+        z-index: 1;
+        animation: MenuAnimation 0.45s;
+    }
+
+    .mobile-nav {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .sliding-menu ul {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 25px;
+    }
+
+    .sliding-menu a{
+        text-decoration: none;
+        color: rgb(247, 244, 238);
+        font-weight: 500;
+    }
+
+
+
+    @keyframes MenuAnimation {
+        from {width: 0px;}
+        to { width: 320px;}
+    }
+
+    @keyframes CloseAnimation {
+        from {width: 320px;}
+        to { width: 0px;}
+    }
+
+    .close-menu {
+        animation: CloseAnimation 0.45s;
+    }
+
+    .sliding-menu div {
+        z-index: 2;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* .links-outer a {
+        font-size: 20px;
+        justify-content: start;
+    }
+
+    nav {
+        position: fixed;
+        top: 0; bottom: 0; left: 0; right: 0;
+        animation: burgerAnimation 0.4s;
+        z-index: 50;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(247, 244, 238);
+        padding: 50px 40px;
+        border: red solid;
+
+    }
+
+    nav ul {
+        flex-direction: column;
+        row-gap: 30px;
+        width: 200px;
+    }
+
+    nav ul li {
+       
+    }
+
+    @keyframes burgerAnimation {
+        from { opacity: 0}
+        to { opacity: 1}
+    } */
+
+
     
+
+
+
+
+/*                                                                     Main                                                          */
+
+
+    main {
+        width: 390px;
+    }
+
+    .landscape0 img {
+        width: 390px;
+    }
+
+
+
+/*                                                                     Footer                                                          */
+
 
 
 
     footer {
         margin-bottom: min(190px);
-        margin-top: 110px;
+        margin-top: 0px;
     }
 
 
@@ -519,146 +354,19 @@ li :hover , a:hover, .row-eng div:hover , .text-box-footer div:hover {
     }
 
 
+/*для того, чтобы упростить себе жизнь с текстом на главной странице */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .interviews-content {
-        width: 342px;
-        margin: 45px auto;
-        /* border: yellow solid; */
-    }
-    
-    .line-div {
-        display: flex;
-        margin: 42px auto;
-    }
-
-    .line-div :first-child {
+    .box-hide {
         display: none;
     }
-    
-    .line-div :nth-child(2) {
-        width: 335px;
-    }
-    
-    
-    /*                                                   Interview-section-1                                               */
-    
-    
-    .interview-box-1_1 p {
-     width: 209px;
-     font-size: 28px;
-    }
-    
-    .interview-box-1_2  img {
-        width: 335px;
-        height: 222px;
-    }
-    
-    .interview-box-1_2 {
-        display: block;
-        /* border: blue solid; */
-        margin-bottom: 68px;
-    }
-    
-    .interview-box-1_2 p {
-        font-size: 14px;
-        /* border: red solid; */
-        letter-spacing: 0.1em;
-    }
-    
-    .interview-box-1_2 :nth-child(2) {
-        word-wrap: break-word;
-        margin-top: 42px;
-        width: 338px;
-    }
-    
-    
-    /*                                                   Interview-section-2                                               */
-    
-    .interview-box-2_1 {
-        letter-spacing: 0.1em;
-        margin-bottom: 0;
-        height: 1445px;
-    }
-    
-    
-    .interview-box-2_1 :nth-child(1) h2, .interview-box-2_2 h2, .interview-box-2_3 h2 {
-        text-transform: uppercase;
-        font-size: 32px;
-        margin-bottom: 28px;
-        letter-spacing: 0.13em;
-    }
-    
-    .interview-box-2_1 :nth-child(1) {
-        width: 335px;
-        word-wrap: break-word;
-    }
-    
-    .interview-box-2_1 :nth-child(1) p , .interview-box-2_2 p , .interview-box-2_3 p {
-        font-size: 14px;
-    }
-    
-    .deer , .landscape3, .shack {
-        width: 335px;
-        height: 210px;
-        position: static;
-        margin: 40px auto;
-    }
-
-    .sitting {
-        display: none;
-    }
-    
-    .interview-box-2_2 {
-        width: 338px;
-        word-wrap: break-word;
-        position: static;
-    }
-    
-    .interview-box-2_3 {
-        margin: 0;
-        position: static;
-        width: 338px;
-    }
-    
-    .interview-box-2_2 h2 , .interview-box-2_3 h2 {
-        margin-bottom: 18px;
-    }
-    
-    
-    /*                                                   Interview-section-3                                               */
-    
-    .interview-box-3_1 h2 {
-        text-transform: uppercase;
-        font-size: 32px;
-        letter-spacing: 0.13em;
-    }
-
-    .interview-box-3_1 {
-        margin-top: 240px;
-    }
-
-    .interview-box-3_1 .line-div {
-        margin: 21px auto;
-    }
-    
-    .interview-box-3_1 p {
-        font-size: 14px;
-    }
-
 }
+
+
+
+
+
+
+
+
+
 

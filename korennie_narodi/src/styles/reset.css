@@ -87,3 +87,10 @@ label, button, a {
 legend {
 	display: block;
 }
+
+
+@media (max-width: 768px) {
+	a, a:link, a:visited  {
+		text-decoration: underline;
+	}
+}

@@ -4,6 +4,7 @@ import './header.css';
 import logoImg from './../../images/Logo.svg';
 import i18n from "./../../i18n.js";
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function Header() {
     const { t } = useTranslation();
@@ -28,6 +29,27 @@ function Header() {
     // Определение названия кнопки в зависимости от текущего языка
     const buttonLabel = i18n.language === 'en' ? 'Русский' : 'English';
 
+
+
+
+
+
+    const [containerStyle, setContainerStyle] = useState({display: 'none'});
+    const [isVisible, setIsVisible] = useState(false);
+
+    const slidingMenu = 'sliding-menu';
+    const closeMenu =  'closemenu'
+
+
+    const toggleVisibility = () => {
+        setIsVisible(!isVisible);
+    };
+
+    
+    const cross = document.querySelector('.sliding-menu');
+
+
+
     return (
         <header className='header'>
             <div className="container">
@@ -44,17 +66,43 @@ function Header() {
                             <button onClick={changeLanguage} style={{ all: 'unset' }}>{buttonLabel}</button>
                         </div>
                     </div>
-                    <nav>
-                        <ul>
-                            <li><Link to="/about_us">{t('about_us')}</Link></li>
-                            <li><Link to="/peoples">{t('Народы')}</Link></li>
-                            <li><Link to="/interviews">{t('Интерьвью')}</Link></li>
-                            <li><Link to="/nature">{t('Природа')}</Link></li>
-                            <li><Link to="/problems">{t('Проблемы')}</Link></li>
-                            <li><Link to="/help">{t('Помочь')}</Link></li>
-                        </ul>
-                    </nav>
+                    <div className='header-nav'>
+                        <nav>
+                            <ul>
+                                <li><Link to="/about_us">{t('about_us')}</Link></li>
+                                <li><Link to="/peoples">{t('Народы')}</Link></li>
+                                <li><Link to="/interviews">{t('Интерьвью')}</Link></li>
+                                <li><Link to="/nature">{t('Природа')}</Link></li>
+                                <li><Link to="/problems">{t('Проблемы')}</Link></li>
+                                <li><Link to="/help">{t('Помочь')}</Link></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
+                <div className='burger' onClick={() => {setContainerStyle({display: 'block'}) ; toggleVisibility()}}>
+                    <span></span>
+                </div>
+                {isVisible && <div className='sliding-menu' style={containerStyle}>
+                    <div className="cl-btn-2" onClick={() => {setContainerStyle({display: 'block'}) ; toggleVisibility()}}>
+                        <div>
+                            <div className="leftright"></div>
+                            <div className="rightleft"></div>
+                            <span className="close-btn">закрыть</span>
+                        </div>
+                    </div>
+                    <div className='mobile-nav'>
+                        <nav>
+                            <ul>
+                                <li><Link to="/about_us">{t('about_us')}</Link></li>
+                                <li><Link to="/peoples">{t('Народы')}</Link></li>
+                                <li><Link to="/interviews">{t('Интерьвью')}</Link></li>
+                                <li><Link to="/nature">{t('Природа')}</Link></li>
+                                <li><Link to="/problems">{t('Проблемы')}</Link></li>
+                                <li><Link to="/help">{t('Помочь')}</Link></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>}
             </div> 
         </header>
     );

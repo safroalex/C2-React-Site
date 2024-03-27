@@ -13,7 +13,7 @@ const Section1 = () => {
                         <h1>{t('about_us')}</h1>
                     </div>
                 </div>
-                <div>
+                <div className='box-hide'>
                     <div className='box-sec1_1'>
                         <div className='box-sec1_2'>
                             <div>
@@ -23,7 +23,7 @@ const Section1 = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='box-hide'>
                     <div className='box-sec1_1 outer-text1_2'>
                         <div>
                             <div>
@@ -33,6 +33,14 @@ const Section1 = () => {
                                 <p className='text1_1'>{t('relationships_with_nature')}</p>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className='sec1-mobile'>
+                    <div className='subsec1-1_1'>
+                        <p>{t('we_care_about')} {t('climate_change')} {t('and_animals')}</p>
+                    </div>
+                    <div className='subsec1-1_2'>
+                        <p>{t('recently_learned')} {t('relationships_with_nature')}</p>
                     </div>
                 </div>
             </div>

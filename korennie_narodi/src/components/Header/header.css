@@ -50,12 +50,12 @@ header {
     margin-bottom: 16px;
 }
 
-ul {
+.header-nav ul {
     display: flex;
     column-gap: 20px;
 }
 
-ul li {
+.header-nav ul li {
     text-align: center;
 }
 
@@ -84,4 +84,94 @@ a {
     font-size: 16px; /* Добавлены единицы измерения */
     color: rgb(68, 88, 82);
     word-wrap: break-word;
+}
+
+.burger {
+    display: none;
+}
+
+.sliding-menu {
+    display: none;
+}
+
+/*                                                                 Burger Menu                                                               */
+
+@media (max-width: 768px) {
+
+    .burger {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+        margin-right: 19px;
+        cursor: pointer;
+    }
+
+    .burger span {
+        height: 0.3px;
+        width: 27px;
+        background-color: black;
+    }
+
+    .burger::before , .burger::after {
+        content: '';
+        position: absolute;
+        height: 1.3px;
+        width: 27px;
+        background-color: black;
+    }
+
+    .burger::before { top: 5px; height: 1px }
+
+    .burger::after { bottom: 4px }
+
+
+    .cl-btn-2 {
+        margin-top: 5px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        animation: CloseAnimation 0.3s;
+    }
+    .cl-btn-2 div {
+        cursor: pointer;
+        position: relative;  
+        height: 30px;
+        width: 30px;
+    }
+    .cl-btn-2 .leftright {
+        height: 2px;
+        width: 30px;
+        position: absolute;
+        margin-top: 24px;
+        background-color: black;
+        border-radius: 2px;
+        transform: rotate(45deg);
+        transition: all .3s ease-in;
+    }
+    .cl-btn-2 .rightleft {
+        height: 2px;
+        width: 30px;
+        position: absolute;
+        margin-top: 24px;
+        background-color: black;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+        transition: all .3s ease-in;
+    }
+    .cl-btn-2 .close-btn {
+        margin: 54px 0 0 -5px;
+        position: absolute;
+        color: black;
+        font-family: Tahoma, sans-serif;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: all .3s ease-in;
+        opacity: 0; 
+    }
+
 }
